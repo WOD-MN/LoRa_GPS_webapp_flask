@@ -33,7 +33,7 @@ Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 #define BUZZER_PIN 23
 
 // Node ID
-const char* NODE_ID = "1";  // Unique Node Identifier
+const char* NODE_ID = "NODE_1";  // Unique Node Identifier
 
 // Create TinyGPS++ object
 TinyGPSPlus gps;
